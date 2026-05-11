@@ -46,6 +46,22 @@ img {
     transform: translateY(0);
 }
 
+/* Fixed floating chat button — show logo, remove dark circle */
+.elementor-element-d1bff4d > .elementor-widget-container {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.elementor-element-d1bff4d .elementor-icon-wrapper {
+    background: transparent !important;
+}
+.elementor-element-d1bff4d .elementor-icon {
+    background: transparent !important;
+    border: none !important;
+    font-size: inherit !important;
+}
+
 /* Header hover animations */
 .elementor-nav-menu a {
     transition: color 0.3s ease, transform 0.3s ease !important;
