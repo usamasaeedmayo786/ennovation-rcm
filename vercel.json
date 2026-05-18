@@ -1,3 +1,7 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/comparisons", "destination": "/", "permanent": true },
+    { "source": "/comparisons.html", "destination": "/", "permanent": true }
+  ]
 }

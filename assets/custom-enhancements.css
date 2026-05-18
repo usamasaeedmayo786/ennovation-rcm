@@ -76,3 +76,14 @@ img {
 .elementor-element-760b878, .menu-item-25530 {
     display: none !important;
 }
+
+/* Hide Comparisons menu option site-wide (mega menu, normal menu, mobile app nav, and footer) */
+.elementor-element-0d50ec3,
+.menu-item-17160,
+a[href="comparisons.html"].mmm-app-icon,
+.elementor-icon-list-item:has(a[href*="comparisons"]),
+li:has(a[href*="comparisons"]),
+a[href*="comparisons"] {
+    display: none !important;
+}
+
