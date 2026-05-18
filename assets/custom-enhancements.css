@@ -61,7 +61,7 @@ img {
     transform: translateY(-2px);
 }
 
-/* Hide dynamically injected chat widgets (Tidio, Tawk, Freshchat, Crisp, etc.) */
-#tidio-chat-iframe, #tidio-chat, #fc_widget, .crisp-client, .tawk-min-container, iframe[title*='chat widget'], iframe[title*='Tawk'], #zopim, #hubspot-messages-iframe-container, .whatsapp-chat-widget, #whatsapp-chat {
+/* Hide dynamically injected chat widgets (Tidio, Tawk, Freshchat, Crisp, Chatwoot, etc.) */
+#tidio-chat-iframe, #tidio-chat, #fc_widget, .crisp-client, .tawk-min-container, iframe[title*='chat widget'], iframe[title*='Tawk'], #zopim, #hubspot-messages-iframe-container, .whatsapp-chat-widget, #whatsapp-chat, .chatwoot-widget-holder, .chatwoot-widget-container, .chatwoot--bubble-holder {
     display: none !important;
 }
