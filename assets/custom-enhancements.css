@@ -58,10 +58,12 @@ img {
 
 .elementor-nav-menu a:hover {
     color: #17b1b1 !important;
-    transform: translateY(-2px);
-}
-
 /* Hide dynamically injected chat widgets (Tidio, Tawk, Freshchat, Crisp, Chatwoot, etc.) */
 #tidio-chat-iframe, #tidio-chat, #fc_widget, .crisp-client, .tawk-min-container, iframe[title*='chat widget'], iframe[title*='Tawk'], #zopim, #hubspot-messages-iframe-container, .whatsapp-chat-widget, #whatsapp-chat, .chatwoot-widget-holder, .chatwoot-widget-container, .chatwoot--bubble-holder, #chatwoot_livechat_container, .chatwoot-app, .woot-widget-bubble, .woot-widget-holder, .woot-widget-container, iframe[name="chatwoot_livechat_widget"], .cw-widget {
+    display: none !important;
+}
+
+/* Hide footer social media icons */
+.elementor-element-e35cb59 {
     display: none !important;
 }
