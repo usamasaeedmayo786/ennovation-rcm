@@ -71,3 +71,8 @@ img {
     display: none !important;
 }
 
+
+/* Hide Client Portal button in header and mobile menu */
+.elementor-element-760b878, .menu-item-25530 {
+    display: none !important;
+}
